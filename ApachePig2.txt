@@ -1,0 +1,9 @@
+1. Pig Script
+2. mapreduce
+3. exec
+4. load 
+5. pig -x local
+6. local
+7. a)Pig can be invoked by language like Java
+8. procedural
+9. 

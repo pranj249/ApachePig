@@ -1,0 +1,31 @@
+1) Pig have structure such that it helps parallel processing. Pig's consists of a compiler that produces sequences of Map-Reduce programs, for which large-scale parallel implementations already exist( Hadoop).Map reduce is core component in Hadoop which helps in processing data.
+
+2)Pig is data processing, data flow language built upon Hadoop . With the help of join, distinct, union features as in relational database , pig helps to make it easier to process, clean and analyze big data.It works on semistructured and unstructured data.
+a)Time Saving - ratio of nummber of lines of code in MR to Pig is 20:1
+b)Easy to learn due to SQL like syntax
+c)Learnng curve is not steep
+d)Lazy Evaluation - Unless output is put to file or displayed, the queies are not evaluated. Advantage of optimizing logical plan
+e)procedural query language , data is given utmost importance . useful for data analyst
+
+3)Pig Engine is a interpreter for pig latin language. It helps to convert pig lation statements to MR jobs so it can be executed in parallel manner.
+
+4)Apache pig has 3 ways of execution
+a)Interactive Shell(grunt shell)
+b)Batch Mode(script): pig latin scripts with .pig extension can be executed in batch fashion
+c)Embedded mode: User defined functions in apache pig and using them in script
+
+5)
+Grunt shell allows to execute pig latin statements .
+pig has 2 types of grunt shell
+a)pig local - which reads files from local file system . The shell can be accessed by "pig -x local"
+b)pig which reads files from HDFS . The shell can be accessed by "pig" or "pig -x mapreduce"
+
+
+6)The features of Apache pig are :
+a)Ease of programming: parallel execution of tasks in data analysis is common. Multiple interrelated  data transformations are explicitly encoded as data flow sequences.
+b)Optimization opportunities:  Unless output is put to file or displayed, the queies are not evaluated. Advantage of optimizing logical plan,  allowing the user to focus on semantics rather than efficiency.
+c)Extensibility. Users can create their own functions to do special-purpose processing eg UDF
+
+7)yes 
+
+8)Dataflow programming is a programming paradigm which emphasizes the movement of data and models programs as a series of connections. Explicitly defined inputs and outputs connect operations, which function like black boxes. An operation runs as soon as all of its inputs become valid. Thus, dataflow languages are inherently parallel and can work well in large, decentralized systems
